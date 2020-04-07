@@ -130,4 +130,10 @@ public class ProductController {
 				
 	}
 	
+	@GetMapping("/quiensoy")
+	public String welcome() {
+		return "Hola al mundo de Many  con  autoescalado 3";
+	}
+	
+	
 }
